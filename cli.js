@@ -8,7 +8,7 @@ const {format} = require('timeago.js');
 const meow = require('meow');
 const ora = require('ora');
 
-const readFeed = require('../lib');
+const readFeed = require('./lib');
 
 const cli = meow(
 	`

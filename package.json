@@ -18,7 +18,7 @@
 		"url": "https://rocktim.xyz"
 	},
 	"bin": {
-		"feed": "./bin/index.js"
+		"feed": "cli.js"
 	},
 	"scripts": {
 		"postinstall": "node bin/post-install.js",
