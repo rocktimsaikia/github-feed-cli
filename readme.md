@@ -6,7 +6,7 @@
 	<a href="https://github.com/sindresorhus/xo"><img src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg" alt="Code Style"></a>
 </p>
 </p>
-<p align="center"><img src="https://raw.githack.com/RocktimSaikia/github-feed-cli/master/demo.gif" alt="gif" height="500"></p>
+<p align="center"><img src="https://raw.githack.com/RocktimSaikia/github-feed-cli/master/demo.gif" alt="gif"></p>
 
 ## :sparkles: Highlights
 
