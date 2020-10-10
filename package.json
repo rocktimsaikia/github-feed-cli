@@ -21,7 +21,6 @@
 		"feed": "cli.js"
 	},
 	"scripts": {
-		"postinstall": "node bin/post-install.js",
 		"test": "xo && ava"
 	},
 	"devDependencies": {
