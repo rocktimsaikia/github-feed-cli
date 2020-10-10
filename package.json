@@ -20,6 +20,10 @@
 	"bin": {
 		"feed": "cli.js"
 	},
+	"files": [
+		"cli.js",
+		"lib/**/*"
+	],
 	"scripts": {
 		"test": "xo && ava"
 	},
