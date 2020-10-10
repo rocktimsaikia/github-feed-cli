@@ -7,7 +7,6 @@ const logSymbols = require('log-symbols');
 const {format} = require('timeago.js');
 const meow = require('meow');
 const ora = require('ora');
-const readUserName = require('git-user-name');
 
 const readFeed = require('../lib');
 
@@ -32,7 +31,7 @@ const cli = meow(
 			user: {
 				type: 'string',
 				alias: 'u',
-				default: readUserName()
+				default: ''
 			},
 			page: {
 				type: 'number',

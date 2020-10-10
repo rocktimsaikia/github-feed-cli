@@ -1,6 +1,6 @@
 {
 	"name": "github-feed-cli",
-	"version": "0.0.2",
+	"version": "1.0.0",
 	"description": "Github feed right at your terminal",
 	"keywords": [
 		"github",
@@ -37,7 +37,6 @@
 		"boxen": "^4.2.0",
 		"chalk": "^4.1.0",
 		"clean-deep": "^3.4.0",
-		"git-user-name": "^2.0.0",
 		"lodash.isempty": "^4.4.0",
 		"log-symbols": "^4.0.0",
 		"meow": "^7.1.1",
