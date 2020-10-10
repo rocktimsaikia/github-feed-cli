@@ -24,19 +24,19 @@ $ npm install --global github-feed-cli
 ## Usage
 
 ```bash
-		Usage
-			$ feed <options>
+	Usage
+		$ feed <options>
 
-		Options
-			--username, -u Github username to fetch the feed [default: Your own git username]
-			--page, -p Page number of the results to fetch [default: 1]
-			--version, -v Get the current version
+	Options
+		--username, -u Github username to fetch the feed [default: Your own git username]
+		--page, -p Page number of the results to fetch [default: 1]
+		--version, -v Get the current version
 		
-		Examples
-			$ feed
-            $ feed --page 2
-			$ feed --username rocktimsaikia
-			$ feed --username rocktimsaikia -page 2
+	Examples
+		$ feed
+            	$ feed --page 2
+		$ feed --username rocktimsaikia
+		$ feed --username rocktimsaikia -page 2
 ```
 <br>
 
