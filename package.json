@@ -38,6 +38,7 @@
 	},
 	"devDependencies": {
 		"ava": "2.4.0",
+		"dotenv": "^8.2.0",
 		"execa": "^4.0.3",
 		"xo": "^0.33.1"
 	},
