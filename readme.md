@@ -11,8 +11,9 @@
 ## :sparkles: Highlights
 
 * Fast and Simple
-* Check the feed of any Github user
+* Can be used to check the feed of any Github user
 * Also shows the notification events. ex: (Creating a issue, commenting, pushing codes etc)
+* Filters out `depandabot` events
 <br><br>
 
 ## Install
@@ -47,8 +48,7 @@ If you want to add new feature or improve the existing ones of `github-feed-cli`
 
 ## Related
 
-- [`read-packages`](https://github.com/RocktimSaikia/read-packages) - Read dependencies of a package.json file
-- [`package-outdated`](https://github.com/RocktimSaikia/package-outdated) - Returns the outdated packages of a package.json file
+- [`read-git-user`](https://github.com/rocktimsaikia/read-git-user) - Reads the Github username and email from `.gitconfig` wrench and returns it as a json object
 <br>
 
 ## Support
