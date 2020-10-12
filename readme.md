@@ -14,6 +14,7 @@
 * Can be used to check the feed of any Github user
 * Also shows the notification events. ex: (Creating a issue, commenting, pushing codes etc)
 * Filters out `depandabot` events
+* Working in [all the OSS.](https://github.com/RocktimSaikia/github-feed-cli/runs/1241472881)
 <br><br>
 
 ## Install
