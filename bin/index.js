@@ -3,6 +3,7 @@
 
 const chalk = require('chalk');
 const boxen = require('boxen');
+const updateNotifier = require('update-notifier');
 const nodeEmoji = require('node-emoji');
 const {format} = require('timeago.js');
 const meow = require('meow');
@@ -86,5 +87,7 @@ const formatFeedlog = ({actor, action: {postfix, event, icon, issueTitle, issueN
 		}
 
 		console.error(error);
+	} finally {
+		updateNotifier({pkg: require('../package.json')}).notify();
 	}
 })();
