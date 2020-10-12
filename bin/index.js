@@ -3,7 +3,7 @@
 
 const chalk = require('chalk');
 const boxen = require('boxen');
-const logSymbols = require('log-symbols');
+const nodeEmoji = require('node-emoji');
 const {format} = require('timeago.js');
 const meow = require('meow');
 const ora = require('ora');
@@ -52,9 +52,9 @@ const formatFeedlog = ({actor, action: {postfix, event, icon, issueTitle, issueN
 	repo = chalk.blue(repo);
 	createdAt = chalk.white.dim(format(createdAt, 'en_us'));
 	issueNumber = issueTitle === undefined ? '' : issueNumber;
-	issueTitle = issueTitle === undefined ? '' : `\n\n${logSymbols.info}) ${chalk.underline(`${issueTitle} #${issueNumber}`)}`;
-
-	const log = `\n${logSymbols.success} ${actor} ${event}${icon} ${postfix} ${repo} ${createdAt}${issueTitle}\n`;
+	issueTitle = issueTitle === undefined ? '' : `\n\n${chalk.blue('i')}) ${chalk.underline(`${issueTitle} #${issueNumber}`)}`;
+	const successTick = chalk.green(nodeEmoji.get('heavy_check_mark'));
+	const log = `\n${successTick} ${actor} ${event}${icon} ${postfix} ${repo} ${createdAt}${issueTitle}\n`;
 
 	return boxen(log, {
 		margin: {left: 2},

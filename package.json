@@ -24,28 +24,27 @@
 		"postinstall": "node bin/post-install.js",
 		"test": "xo && ava"
 	},
-	"devDependencies": {
-		"ava": "2.4.0",
-		"xo": "^0.33.1"
-	},
-	"engines": {
-		"node": ">=12"
-	},
 	"dependencies": {
 		"@octokit/rest": "^18.0.6",
 		"boxen": "^4.2.0",
 		"chalk": "^4.1.0",
 		"clean-deep": "^3.4.0",
-		"execa": "^4.0.3",
 		"lodash.isempty": "^4.4.0",
-		"log-symbols": "^4.0.0",
 		"meow": "^7.1.1",
 		"node-emoji": "^1.10.0",
 		"ora": "^5.1.0",
 		"read-git-user": "^2.0.0",
 		"timeago.js": "^4.0.2"
 	},
+	"devDependencies": {
+		"ava": "2.4.0",
+		"execa": "^4.0.3",
+		"xo": "^0.33.1"
+	},
 	"xo": {
 		"ignores": "./test.js"
+	},
+	"engines": {
+		"node": ">=12"
 	}
 }
