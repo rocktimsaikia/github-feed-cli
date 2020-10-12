@@ -33,15 +33,16 @@
 	},
 	"dependencies": {
 		"@octokit/rest": "^18.0.6",
-		"execa": "^4.0.3",
 		"boxen": "^4.2.0",
 		"chalk": "^4.1.0",
 		"clean-deep": "^3.4.0",
+		"execa": "^4.0.3",
 		"lodash.isempty": "^4.4.0",
 		"log-symbols": "^4.0.0",
 		"meow": "^7.1.1",
 		"node-emoji": "^1.10.0",
 		"ora": "^5.1.0",
+		"read-git-user": "^2.0.0",
 		"timeago.js": "^4.0.2"
 	},
 	"xo": {

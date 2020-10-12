@@ -30,8 +30,7 @@ const cli = meow(
 		flags: {
 			user: {
 				type: 'string',
-				alias: 'u',
-				default: ''
+				alias: 'u'
 			},
 			page: {
 				type: 'number',
