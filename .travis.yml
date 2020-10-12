@@ -8,4 +8,5 @@ node_js:
   - '12'
   - '10'
 before_install:
-  - chmod +x ./bin/index.js
+  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then chmod +x ./bin/index.js          ; fi
+  - if [ "$TRAVIS_OS_NAME" = "osx" ]; then chmod +x ./bin/index.js          ; fi
