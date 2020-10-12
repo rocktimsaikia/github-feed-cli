@@ -48,7 +48,7 @@ If you want to add new feature or improve the existing ones of `github-feed-cli`
 
 ## Related
 
-- [`read-git-user`](https://github.com/rocktimsaikia/read-git-user) - Reads the Github username and email from `.gitconfig` wrench and returns it as a json object
+- [`read-git-user`](https://github.com/rocktimsaikia/read-git-user) - Reads the Github username and email from `.gitconfig` :wrench: and returns it as a json object
 <br>
 
 ## Support
