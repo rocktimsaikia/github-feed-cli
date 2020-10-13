@@ -21,6 +21,11 @@
 ```bash
 $ npm install --global github-feed-cli
 ```
+
+If you are using `npm` version `5.2+` or higher then you can use this tool with `npx` too.
+```bash 
+$ npx feed
+```
 <br>
 
 ## Usage
