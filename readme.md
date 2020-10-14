@@ -3,7 +3,7 @@
   <p align="center">Github feed right at your terminal.<p>
   <p align="center">
 	<a href="https://travis-ci.com/rocktimsaikia/github-feed-cli"><img src="https://travis-ci.com/RocktimSaikia/github-feed-cli.svg?branch=master" alt="Build Status"></a>
-	<a href="https://github.com/sindresorhus/xo"><img src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg" alt="Code Style"></a>
+	<a href="https://www.npmjs.com/package/github-feed-cli"><img src="https://img.shields.io/npm/dt/github-feed-cli.svg" alt="Code Style"></a>
 </p>
 </p>
 <p align="center"><img src="https://raw.githack.com/RocktimSaikia/github-feed-cli/master/demo.gif" alt="gif"></p>
