@@ -55,11 +55,11 @@ const formatFeedlog = ({actor, action: {postfix, event, icon, issueTitle, issueN
 	issueNumber = issueTitle === undefined ? '' : issueNumber;
 	issueTitle = issueTitle === undefined ? '' : `\n\n${chalk.blue('i')}) ${chalk.underline(`${issueTitle} #${issueNumber}`)}`;
 	const successTick = chalk.green(nodeEmoji.get('heavy_check_mark'));
-	const log = `\n${successTick} ${actor} ${event}${icon} ${postfix} ${repo} ${createdAt}${issueTitle}\n`;
+	const log = `${successTick} ${actor} ${event}${icon} ${postfix} ${repo} ${createdAt}${issueTitle} `;
 
 	return boxen(log, {
 		margin: {left: 2},
-		padding: {left: 1, right: 1},
+		padding: 1,
 		borderColor: 'magenta',
 		borderStyle: 'round',
 		dimBorder: true
