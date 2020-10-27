@@ -1,6 +1,6 @@
 {
 	"name": "github-feed-cli",
-	"version": "1.2.2",
+	"version": "1.3.1",
 	"description": "Github feed right at your terminal",
 	"keywords": [
 		"github",
