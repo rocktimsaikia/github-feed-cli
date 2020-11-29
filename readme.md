@@ -44,7 +44,7 @@ Options
 
 Examples
 	$ feed
-        $ feed --page 2
+    $ feed --page 2
 	$ feed --username rocktimsaikia
 	$ feed --username rocktimsaikia -page 2
 ```
