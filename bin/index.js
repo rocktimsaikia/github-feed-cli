@@ -82,11 +82,14 @@ const formatFeedlog = ({actor, action: {postfix, event, icon, issueTitle, issueN
 
 		feedEvents.map(activity => console.log(formatFeedlog(activity)));
 	} catch (error) {
+		spinner.stop();
 		if (error.status === 404) {
-			console.error('User not found! Please provide a valid github username.');
+			console.error(`${nodeEmoji.get('warning')} User not found! Please provide a valid github username.`);
+			process.exit();
 		}
 
 		console.error(error);
+		process.exit();
 	} finally {
 		updateNotifier({pkg: require('../package.json')}).notify();
 	}
